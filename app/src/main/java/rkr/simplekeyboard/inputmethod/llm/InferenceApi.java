@@ -119,7 +119,7 @@ interface ChatApi {
 public class InferenceApi {
     private Retrofit retrofit;
     private ChatApi api;
-    private String apiKey = "sk-vrvybcbzusmurtoyegxvcspwmfcgvdjimyyucenpyizwinyf";
+    private String apiKey = "your-api-key";
 
     static List<Message> messages = new ArrayList<>();
     static {
